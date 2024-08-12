@@ -163,7 +163,7 @@ body:after {
 
 .site-footer {
   padding: 4em 0;
-  background: #343a40;
+  background: #00aa88;
 }
 @media (min-width: 768px) {
   .site-footer {
@@ -171,7 +171,7 @@ body:after {
   }
 }
 .site-footer .border-top {
-  border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.5) !important;
 }
 .site-footer p {
   color: rgba(255, 255, 255, 0.7);
