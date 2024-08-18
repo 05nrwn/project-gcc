@@ -20,6 +20,22 @@ body {
   color: #fff;
 }
 
+.nice {
+  color: #00aa88 !important;
+  font-weight: 600 !important;
+}
+
+.detail {
+  text-transform: capitalize;
+  background-color: #00aa88 !important;
+  border: 1px solid #00aa88 !important;
+}
+
+.detail:hover {
+  background-color: #006adb !important;
+  border: 1px solid #006adb !important;
+}
+
 .logo {
   margin-right: 5px;
 }
@@ -596,14 +612,14 @@ body:after {
   color: #212529;
 }
 .site-mobile-menu .site-nav-wrap a:hover {
-  color: #007bff;
+  color: #00aa88;
 }
 .site-mobile-menu .site-nav-wrap li {
   position: relative;
   display: block;
 }
 .site-mobile-menu .site-nav-wrap li .active {
-  color: #007bff;
+  color: #00aa88;
 }
 .site-mobile-menu .site-nav-wrap .social {
   display: inline-block;
@@ -728,14 +744,16 @@ body:after {
   color: #000;
 }
 .sticky-wrapper.is-sticky .site-navbar .site-logo a {
-  color: #007bff;
+  color: #00aa88;
 }
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a {
   color: #000 !important;
 }
+
+/* Hover nav-link */
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a:hover,
 .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a.active {
-  color: #007bff !important;
+  color: #00aa88 !important;
 }
 
 /* Blocks */
