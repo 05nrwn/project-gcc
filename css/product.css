@@ -1,0 +1,132 @@
+/* Styling Navbar */
+.navbar {
+  background-color: #00aa88;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  margin: 1rem auto; /* Menambahkan auto margin untuk memusatkan navbar */
+  max-width: 1200px; /* Menyesuaikan lebar navbar dengan lebar konten */
+}
+
+.navbar-nav {
+  margin: 0 auto; /* Memusatkan navbar-nav */
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+  padding: 0.75rem 1.25rem; /* Menambah padding horizontal untuk jarak yang lebih baik */
+  font-size: 1rem;
+  border-radius: 0.7rem;
+  transition: background-color 0.3s ease;
+  margin: 0 0.5rem; /* Menambah jarak antar item */
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  background-color: #2b2c33;
+}
+
+.dropdown-menu {
+  background-color: #333;
+  border: none;
+}
+
+.dropdown-item {
+  color: #ffffff;
+  padding: 0.75rem 1.25rem; /* Padding yang konsisten dengan nav-link */
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #575757;
+}
+
+/* Konten Produk Styling */
+.container-custom {
+  max-width: 1200px; /* Menyesuaikan lebar konten dengan navbar */
+  margin: 0 auto; /* Memusatkan konten */
+  padding: 0 1rem; /* Menambahkan padding horizontal */
+}
+
+.product-content {
+  display: none;
+  padding: 1.5rem;
+  border: 1px solid #dee2e6;
+  border-radius: 0.5rem;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-content.active {
+  display: block;
+}
+
+.product-content h2 {
+  margin-top: 0;
+}
+
+.product-content p {
+  margin-bottom: 0;
+}
+
+/* Responsive Navbar */
+@media (max-width: 991.98px) {
+  .navbar {
+    padding: 0.5rem 1rem; /* Padding horizontal pada navbar untuk layar mobile */
+  }
+
+  .navbar-nav {
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 0.5rem 0;
+  }
+}
+
+/* Card Produck */
+.card-body {
+  padding-left: 1rem; /* Minimal padding kiri */
+  padding-right: 1rem;
+}
+
+.card-title,
+.card-text {
+  margin-bottom: 0.5rem;
+}
+
+.card-title {
+  color: #00aa88;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.card {
+  display: flex;
+  align-items: flex-start; /* Menyelaraskan konten di atas */
+}
+
+.col-md-4 img {
+  width: 100%;
+  height: auto;
+}
+
+/* Tata letak di layar besar tetap horizontal, dan teks di atas gambar */
+@media (min-width: 992px) {
+  .row.g-0 {
+    display: flex;
+    align-items: flex-start; /* Konten berada di atas */
+    flex-wrap: nowrap;
+  }
+
+  .col-md-4 {
+    flex: 0 0 30%;
+  }
+
+  .col-md-8 {
+    flex: 0 0 70%;
+  }
+}
