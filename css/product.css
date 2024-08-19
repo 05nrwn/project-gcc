@@ -23,7 +23,7 @@
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-  background-color: #2b2c33;
+  background-color: #018268;
 }
 
 .dropdown-menu {
@@ -54,8 +54,8 @@
   padding: 1.5rem;
   border: 1px solid #dee2e6;
   border-radius: 0.5rem;
-  background-color: #f8f9fa;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
 }
 
 .product-content.active {
